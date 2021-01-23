@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+}
+
+header {
+    width: 100%;
+}
+
+header>div#head {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header>div#head>img {
+    width: 15%;
+    margin-left: 7%;
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+header>div#head>img#logo {
+    width: 5%;
+    position: absolute;
+    left: -6%;
+    top: -2.6%;
+}
+
+header>div#head>span#title {
+    position: absolute;
+    color: #FFF;
+    top: 55%;
+    left: 12%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
+}
+
+header>div#head>a#main {
+    position: absolute;
+    color: #FFF;
+    top: 37%;
+    left: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    text-decoration: none;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.5%;
+}
+
+header>div#head>a#main:after {
+    transition: all 0.2s ease-out;
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+}
+header>div#head>a#main:hover:after {
+    left: 0;
+}
+
+header>div#head>a#support {
+    position: absolute;
+    color: #FFF;
+    top: 37%;
+    left: 65%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    text-decoration: none;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.2%;
+}
+
+header>div#head>a#support:after {
+    transition: all 0.2s ease-out;
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+}
+header>div#head>a#support:hover:after {
+    left: 0;
+}
+
+div#stat {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+div#stat>img {
+    width: 30%;
+}
+
+main {
+    margin-top: 10%;
+}
+
+main>div#prod {
+    margin-left: 3%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 2%;
+    position: relative;
+}
+
+main>div#prod>img {
+    width: 5%;
+    left: 1%;
+    top: 4%;
+    position: absolute;
+}
+
+main>div#prod>span#title {
+    color: rgb(255, 255, 0);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+
+}
+
+main>div#prod>span#instr {
+    color: rgb(195, 190, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3vw;
+}
+
+main>div#prod>div#list {
+    text-align: left;
+    margin-left: 10%;
+}
+
+main>div#prod>div#list>span#buytitle {
+    color: rgb(255, 255, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+}
+
+main>div#prod>div#list>span#rule {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+}
+
+main>div#input {
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 90%;
+    text-align: center;
+}
+
+main>div#input>input {
+    width: 35%;
+    padding: 0.75%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 0, 0.15);
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3vw;
+    color: #FFF;
+}
+
+main>div#input>button {
+    width: 20%;
+    padding: 0.75%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 0, 0.15);
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3vw;
+    color: rgb(255, 255, 0);
+    transition: 0.3s linear;
+}
+
+main>div#input>button:hover {
+    border: 1px solid rgba(255, 0, 0, 0.15);
+    color: rgb(255, 0, 0);
+}
+
+footer {
+	width: 100%;
+}
+
+footer>div#foot {
+	width: 100%;
+	position: relative;
+	margin-top: 250%;
+}
+
+footer>div#foot>img#logo {
+	width: 100%;
+}
+
+footer>div#foot>a {
+	position: absolute;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	left: 60%;
+	top: 35%;
+	font-size: 1.5vw;
+	transition: 0.2s linear;
+}
+
+footer>div#foot>a:hover {
+	color: rgb(77, 77, 77);
+}
